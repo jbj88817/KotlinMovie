@@ -41,9 +41,5 @@ class ViewHolder(private val binding: ListItemBinding) : RecyclerView.ViewHolder
 
     fun bind(movie: Movie) {
         binding.movie = movie
-        Glide.with(binding.root.context)
-            .load(movie.Poster)
-            .centerCrop()
-            .into(binding.ivMovieThumbnail);
     }
 }

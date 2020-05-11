@@ -20,6 +20,7 @@
             android:layout_height="48dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
+            android:imageUrl="@{movie.poster}"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
